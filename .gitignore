@@ -1,0 +1,31 @@
+# Output files
+output/
+outputs/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Datos CDF (archivos grandes)
+*.CDF
+*.cdf
+
+# Archivos temporales de NIST
+UNKNOWN.MSP
+SRCRESLT.TXT
+*.TMP
+
+# IDE
+.vscode/
+.idea/

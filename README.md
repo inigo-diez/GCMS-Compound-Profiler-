@@ -33,6 +33,18 @@ Automated end-to-end pipeline for **GC-MS chromatogram analysis**: automatic pea
 
 ---
 
+## Example outputs
+
+| PCA 1 — Technical QC (TIC binned) | PCA 2 — Group discrimination (aligned features) |
+|:---:|:---:|
+| ![PCA TIC QC](https://raw.githubusercontent.com/inigo-diez/GCMS-Compound-Profiler-/main/figures/pca_tic_qc.png) | ![PCA Features](https://raw.githubusercontent.com/inigo-diez/GCMS-Compound-Profiler-/main/figures/pca_features.png) |
+
+| Heatmap 1 — Log-normalized intensities | Heatmap 2 — Z-score + hierarchical clustering |
+|:---:|:---:|
+| ![Heatmap Main](https://raw.githubusercontent.com/inigo-diez/GCMS-Compound-Profiler-/main/figures/heatmap_main.png) | ![Heatmap Z-score](https://raw.githubusercontent.com/inigo-diez/GCMS-Compound-Profiler-/main/figures/heatmap_zscore.png) |
+
+---
+
 ## What does it do?
 
 Given a set of raw GC-MS files (`.CDF` format), the pipeline:
